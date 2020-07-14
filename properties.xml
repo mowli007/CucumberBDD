@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<CucumberBdd>
+
+    <URL>
+        <url>https://www.qatarairways.com/en-us/homepage.html</url>
+    </URL>
+
+    <browserName>
+        <browser>chrome</browser>
+    </browserName>
+
+</CucumberBdd>
