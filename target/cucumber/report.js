@@ -27,7 +27,7 @@ formatter.step({
 });
 formatter.step({
   "line": 6,
-  "name": "User search with source \"\u003csource\u003e\" and destination \"\u003cdestination\u003e\"",
+  "name": "User search with   source \"\u003csource\u003e\" and  destination \"\u003cdestination\u003e\"",
   "keyword": "When "
 });
 formatter.step({
@@ -74,7 +74,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 3337351922,
+  "duration": 12120561800,
   "status": "passed"
 });
 formatter.scenario({
@@ -98,7 +98,7 @@ formatter.step({
 });
 formatter.step({
   "line": 6,
-  "name": "User search with source \"EDI\" and destination \"DOH\"",
+  "name": "User search with   source \"EDI\" and  destination \"DOH\"",
   "matchedColumns": [
     0,
     1
@@ -119,42 +119,27 @@ formatter.match({
   "location": "HomeStep.user_on_home_page()"
 });
 formatter.result({
-  "duration": 144734037,
+  "duration": 1923371700,
   "status": "passed"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "EDI",
-      "offset": 25
-    },
-    {
-      "val": "DOH",
-      "offset": 47
-    }
-  ],
-  "location": "HomeStep.search_flights(String,String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 27677653712,
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.match({
   "location": "HomeStep.verify_title_of_the_page()"
 });
 formatter.result({
-  "duration": 20826183362,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "HomeStep.user_select_faster_cheapest_flight_ticket()"
 });
 formatter.result({
-  "duration": 2828427396,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.before({
-  "duration": 1673876150,
+  "duration": 7111058700,
   "status": "passed"
 });
 formatter.scenario({
@@ -178,7 +163,7 @@ formatter.step({
 });
 formatter.step({
   "line": 6,
-  "name": "User search with source \"EDI\" and destination \"LHR\"",
+  "name": "User search with   source \"EDI\" and  destination \"LHR\"",
   "matchedColumns": [
     0,
     1
@@ -199,38 +184,23 @@ formatter.match({
   "location": "HomeStep.user_on_home_page()"
 });
 formatter.result({
-  "duration": 938916,
+  "duration": 2736300,
   "status": "passed"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "EDI",
-      "offset": 25
-    },
-    {
-      "val": "LHR",
-      "offset": 47
-    }
-  ],
-  "location": "HomeStep.search_flights(String,String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 12787526052,
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.match({
   "location": "HomeStep.verify_title_of_the_page()"
 });
 formatter.result({
-  "duration": 20407799144,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "HomeStep.user_select_faster_cheapest_flight_ticket()"
 });
 formatter.result({
-  "duration": 5234313559,
-  "status": "passed"
+  "status": "skipped"
 });
 });
